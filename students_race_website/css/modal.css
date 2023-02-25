@@ -1,0 +1,223 @@
+/* MUDAR A DIV DICTIONATY PARA UM FORM */
+form#register, form#login, div#dictionary {
+    padding: 0px;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 5px;
+    -webkit-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 5px 2px rgba(0,0,0,0.5);
+}
+
+label {
+    margin-bottom: 3px;
+    font-weight: bold;
+    font-family: 'Comfortaa', cursive
+}
+
+p#statement {
+    font-family: 'Comfortaa', cursive;
+    font-size: 1.3em;
+    text-align: center;
+    line-height: inherit;
+    margin-bottom: 12px
+}
+
+div#modal-header {
+    background: rgba(0,0,0,1)
+}
+div#modal-header.profile {
+    background: rgba(255,255,255,1);
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+div#modal-header.list {
+    background: rgba(255,255,255,1);
+    border-bottom: 1px solid rgba(0,0,0,0.25)
+}
+
+p#text-header {
+    margin: 0px;
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-size: 1.8em;
+    font-family: 'Fredoka One', cursive;
+    line-height: normal
+}
+p#text-header.list {
+    color: rgba(0,0,0,1);
+}
+p#text-header.profile {
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 5px;
+    color: dimgray;
+}
+
+div#modal-body {
+    padding-top: 15px
+}
+
+div#search {
+    padding: 15px;
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 5px;
+
+}
+
+div#modal-footer, div#modal-footer-dictionary {
+    background: rgba(0,0,0,1);
+    padding-top: 15px
+}
+
+.modal-dialog {
+    padding: 0px
+}
+
+/* MODAL BOX DA PÁGINA INICIAL */
+
+div#button-register-register, div#button-login-login, div#button-register, div#button-dictionary {
+    padding: 0px;
+    margin-bottom: 15px
+}
+
+div#button-register-login, div#button-login-register {
+    padding: 0px;
+    margin-bottom: 5px
+}
+
+div#register-login, input#register-register, div#login-register, input#login-login, input#register, input#btn-cancel, input#btn-edit, div#button-dictionary, input#send {
+    background: rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    text-align: center;
+    font-size: 1.2em;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 3px;
+    border: 1px solid rgba(255,255,255,1);
+    border-radius: 5px;
+    cursor: pointer
+}
+
+i#close-modal {
+    color: rgba(0,0,0,1);
+    text-shadow: -1px 0 rgba(255,255,255,1), 0 1px rgba(255,255,255,1), 1px 0 rgba(255,255,255,1), 0 -1px rgba(255,255,255,1);
+    display: block;
+    float: left;
+    padding: 0px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    transition: 0.25s
+}
+
+    i#close-modal:hover {
+        color: rgba(255,255,255,1);
+    }
+
+button#search {
+    background: rgba(255,255,255,1);
+    text-align: center;
+    border: 1px solid rgba(0,0,0,1);
+    border-left: 0px;
+    border-radius: 0px 5px 5px 0px;
+    text-shadow: -1px 0 rgba(0,0,0,1), 0 1px rgba(0,0,0,1), 1px 0 rgba(0,0,0,1), 0 -1px rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    transition: 0.25s;
+    cursor: pointer;
+    z-index: 3;
+}
+
+p#word-english, p#word-port, p#word-class, p#word-definition, p#word-example, p#g-class, p#definition, p#example {
+    font-family: 'Comfortaa', cursive;
+    width: 100%;
+    margin-bottom: 15px;
+}
+p#word-english, p#word-port {
+    padding-right: 72px
+}
+p#word-english {
+    font-family: 'Fredoka One', cursive;
+    font-size: 1.5em
+}
+p#word-english, p#word-example, p#g-class, p#definition, p#example {
+    margin-bottom: 0px
+}
+p#g-class, p#definition, p#example {
+    font-weight: bold
+}
+
+div#word-audio {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    padding: 10px;
+    padding-bottom: 5px;
+    background: rgba(255,255,255,1);
+    border: 1px solid rgba(0,0,0,1);
+    border-radius: 5px;
+    text-shadow: -1px 0 rgba(0,0,0,1), 0 1px rgba(0,0,0,1), 1px 0 rgba(0,0,0,1), 0 -1px rgba(0,0,0,1);
+    color: rgba(255,255,255,1);
+    transition: 0.25s;
+    cursor: pointer
+}
+
+i#audio {
+    font-size: 37px
+}
+
+div#line {
+    height: 1px;
+    width: 100%;
+    margin-bottom: 15px;
+    background-color: rgba(0,0,0,0.25)
+}
+
+input#send {
+    background-color: rgb(255,255,255);
+    border: 1px solid rgba(0,0,0,0.5);
+    color: rgba(0,0,0,1);
+}
+
+@media screen and (min-width: 768px) {
+
+    div#register-login, input#register-register, div#login-register, input#login-login, input#register, div#button-dictionary, input#send {
+        font-size: 1.4em;
+        transition: 0.25s
+    }
+    
+    input#send:hover {
+        border: 1px solid rgba(0,0,0,1)
+    }
+    
+    button#search {
+        border: 1px solid rgba(0,0,0,0.5);
+        border-left: 0px
+    }
+    button#search:hover {
+        color: rgba(0,0,0,1);
+        border: 1px solid rgba(0,0,0,1);
+        border-left: 0px
+    }
+    
+    div#word-audio {
+        border: 1px solid rgba(0,0,0,0.5);
+    }
+        div#word-audio:hover {
+            border: 1px solid rgba(0,0,0,1);
+            color: rgba(0,0,0,1);
+        }
+}
+
+@media screen and (min-width: 992px) {
+    div#button-register-login, div#button-login-register {
+        padding-right: 8px
+    }
+
+    div#button-register-register, div#button-login-login {
+        padding-left: 7px;
+    }
+}
+
+

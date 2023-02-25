@@ -1,0 +1,254 @@
+﻿body {
+    overflow-x: hidden
+}
+
+i#icon-top {
+    padding: 5px;
+    color: rgba(0, 0, 0, 0.5);
+}
+div#btn-top {
+    position: fixed;
+    bottom: 15px;
+    right: 15px;
+    background: rgba(255,255,255,0.75);
+    border: 2px solid rgba(0,0,0,0.5);
+    border-radius: 50%;
+}
+
+i#icons_register {
+    padding-left: 10px
+}
+
+p#text-header {
+    padding: 15px;
+    padding-right: 25px;
+    padding-left: 25px;
+}
+
+div#images {
+    margin: 13px
+}
+
+div.gallery {
+    border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+div.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    text-align: center;
+    background: rgba(0,0,0,0.5);
+    display: none;
+    color: white;
+    font-size: 1.3em;
+    font-family: 'Comfortaa', cursive;
+    text-align: center;
+}
+
+.responsive {
+    padding: 3px;
+    float: left;
+    width: 24.99999%;
+}
+
+.container.gallery {
+    position: relative;
+    width: 100%;
+    border: 1px solid white;
+}
+.container.gallery:hover {
+    border: 1px solid white;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.container.gallery:hover .overlay {
+    opacity: 1;
+}
+
+.text {
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: calc(100% - 30px);
+    font-family: 'Comfortaa', cursive;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+p#intro {
+    margin: 0px;
+    padding: 15px;
+    padding-bottom: 0px;
+    text-align: center;
+    color: rgba(255,255,255,1);
+    font-size: 2em;
+    font-family: 'Fredoka One', cursive;
+    line-height: normal;
+    text-shadow: -1px 0 rgba(0, 0, 0, 1), 0 1px rgba(0, 0, 0, 1), 1px 0 rgba(0, 0, 0, 1), 0 -1px rgba(0, 0, 0, 1);
+}
+
+#ov1, #ov3, #ov5 {
+    font-size: 1.5em;
+}
+
+#ov2, #ov4, #ov6, #ov8 {
+    font-size: 1.3em;
+}
+
+#ov7 {
+    font-size: 1.4em;
+}
+
+
+@media (max-width: 1200px) {
+    #ov1, #ov3, #ov5 {
+        font-size: 1.4em;
+    }
+
+    #ov2, #ov4, #ov6, #ov8 {
+        font-size: 1.15em;
+    }
+
+    #ov7 {
+        font-size: 1.3em;
+    }
+}
+
+@media (max-width: 992px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 0px;
+    }
+    div.desc {
+        display: flex;
+        align-items: center;
+        font-size: 1.2em;
+        padding: 15px
+    }
+    .overlay {
+        display: none;
+    }
+    
+    #dc1, #dc2 {
+        height: 142px;
+    }
+    #dc3, #dc4 {
+        height: 114px
+    }
+    #dc5, #dc6 {
+        height: 142px
+    }
+    #dc7, #dc8 {
+        height: 142px
+    }
+}
+
+@media (max-width: 979px) {
+    #dc7, #dc8 {
+        height: 170px
+    }
+}
+@media (max-width: 813px) {
+    #dc3, #dc4 {
+        height: 142px
+    }
+}
+
+@media (max-width: 823px) {
+    #dc1, #dc2 {
+        height: 170px
+    }
+}
+
+@media (max-width: 768px) {
+    div.desc {
+        font-size: 1.1em;
+    }
+    #dc1, #dc2 {
+        height: 150px
+    }
+    #dc3, #dc4 {
+        height: 134px
+    }
+    #dc5, #dc6 {
+        height: 134px
+    }
+     #dc7, #dc8 {
+        height: 160px
+    }
+}
+@media (max-width: 713px) {
+    #dc5, #dc6 {
+        height: 164px
+    }
+}
+
+@media (max-width: 683px) {
+    #dc1, #dc2 {
+        height: 186px;
+    }
+}
+@media (max-width: 671px) {
+    #dc7, #dc8 {
+        height: 186px
+    }
+}
+
+@media (max-width: 609px) {
+    #dc3, #dc4 {
+        height: 186px
+    }
+}
+
+@media (max-width: 593px) {
+    #dc1, #dc2 {
+        height: 212px
+    }
+}
+@media (max-width: 591px) {
+    #dc7, #dc8 {
+        height: 212px
+    }
+}
+@media (max-width: 583px) {
+    #dc7, #dc8 {
+        height: 238px
+    }
+}
+
+@media (max-width: 585px) {
+    #dc5, #dc6 {
+        height: 186px
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .responsive {
+        width: 100%;
+    }
+    #dc1, #dc2, #dc3, #dc4, #dc5, #dc6, #dc7, #dc8 {
+        height: auto
+    }
+}

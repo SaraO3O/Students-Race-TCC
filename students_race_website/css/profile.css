@@ -1,0 +1,25 @@
+.inputfile {
+	width: 350px;
+	height: 350px;
+    border-radius: 5px;
+	z-index: 4;
+    position: relative;
+    opacity: 0;
+    cursor: pointer
+}
+
+
+div#user_image_lg {
+    padding: 0px;
+    margin: 0px;
+    display: block;
+}
+
+.img-thumbnail {
+    background-color: #fff;
+    border: 1px solid #dee2e6;
+    width: 350px;
+    height: 350px;
+    position: relative;
+    top: 27px
+}
